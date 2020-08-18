@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>new web-site</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.min.css">
+</head>
+
+<body>
+    <header class="header-simple">
+        <div class="header-simple-wrap container">
+            <div class="header-simple-block">
+                <div class="header-simple-logo">
+                    <a href="#" class="header-simple-logo__link"></a>
+                </div>
+                <div class="header-simple-contacts">
+                    <a href="tel:+880077714758" class="header-simple-contacts__tel">8 800 777 147 58</a>
+                    <a href="mailto:info@fastfine.ru" class="header-simple-contacts__mail">info@fastfine.ru</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="login">
+            <div class="login-figure">
+                <img src="./img/figures/login_figure.svg" alt="login figure">
+            </div>
+            <div class="login-wrapper container">
+                <div class="login-form tabs">
+                    <div class="login-form__title">Войти с помощью</div>
+                    <div class="login-form-tabs">
+                        <div class="login-form-tabs__item tabs-trigger current">Email</div>
+                        <div class="login-form-tabs__item tabs-trigger">Телефон</div>
+                        <div class="login-form-tabs__item tabs-trigger">ВКонтакте</div>
+                        <div class="login-form-tabs__item tabs-trigger">Telegram</div>
+                    </div>
+                    <div class="login-form-blocks tabs-blocks">
+                        <div class="login-form-blocks__item current">
+                            <form action="#" class="login-form-email">
+                                <div class="input-field">
+                                    <input type="text" id="email-log" required>
+                                    <label for="email-log">Ваш email</label>
+                                </div>
+                                <div class="login-form__submit login-form-email__submit">
+                                    <button type="submit" class="def-btn">
+                                        Получить код
+                                        <svg class="icon icon-chevron">
+                                            <use xlink:href="./img/sprites/icons.svg#chevron-icon"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="login-form-blocks__item">
+                            <form action="#" class="login-form-tel">
+                                <div class="input-field">
+                                    <input type="text" id="tel-log" required>
+                                </div>
+                                <div class="login-form__submit login-form-tel__submit">
+                                    <button type="submit" class="def-btn">
+                                        Получить код
+                                        <svg class="icon icon-chevron">
+                                            <use xlink:href="./img/sprites/icons.svg#chevron-icon"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="login-form-blocks__item">
+                            <form action="#" class="login-form-vk">
+                                <div class="login-form__submit login-form-socials__submit">
+                                    <button type="submit" class="def-btn">
+                                        Авторизоваться
+                                        <svg class="icon icon-chevron">
+                                            <use xlink:href="./img/sprites/icons.svg#chevron-icon"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="login-form-blocks__item">
+                            <form action="#" class="login-form-tg">
+                                <div class="login-form__submit login-form-socials__submit">
+                                    <button type="submit" class="def-btn">
+                                        Авторизоваться
+                                        <svg class="icon icon-chevron">
+                                            <use xlink:href="./img/sprites/icons.svg#chevron-icon"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-simple">
+        <div class="footer-simple-wrap container">
+            <nav class="footer-simple-nav">
+                <a href="#" class="footer-simple-nav__item">Услуги</a>
+                <a href="#" class="footer-simple-nav__item">Отзывы</a>
+                <a href="#" class="footer-simple-nav__item">Заказать</a>
+                <a href="#" class="footer-simple-nav__item">Антиплагиат</a>
+                <a href="#" class="footer-simple-nav__item">Контакты</a>
+            </nav>
+            <div class="footer-simple-copyrights">
+                <span>Copyright 2019 FastFine.ru</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+    <script src="js/vendor.min.js"></script>
+</body>
+
+</html>
